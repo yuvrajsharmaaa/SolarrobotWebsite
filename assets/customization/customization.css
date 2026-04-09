@@ -38,6 +38,29 @@ body {
   color: var(--brand-text-secondary);
 }
 
+.crane-sequence {
+  position: relative;
+  width: 100%;
+  height: min(72vh, 820px);
+  overflow: hidden;
+  border-radius: 8px;
+  background: #04070d;
+}
+
+.crane-sequence canvas,
+.crane-sequence img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 1024px) {
+  .crane-sequence {
+    height: min(68vh, 680px);
+  }
+}
+
 .site-admin {
   position: fixed;
   right: 16px;

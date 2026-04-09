@@ -34,6 +34,27 @@ window.SITE_CONFIG = {
       "/assets/images/mobile-sequence-4.jpg",
       "/assets/images/mobile-sequence-5.jpg"
     ],
+    craneSequence: [
+      "/assets/images/mobile-sequence-1.jpg",
+      "/assets/images/mobile-sequence-2.jpg",
+      "/assets/images/mobile-sequence-3.jpg",
+      "/assets/images/mobile-sequence-4.jpg",
+      "/assets/images/mobile-sequence-5.jpg"
+    ],
+    craneSequenceDesktop: [
+      "/assets/images/mobile-sequence-1.jpg",
+      "/assets/images/mobile-sequence-2.jpg",
+      "/assets/images/mobile-sequence-3.jpg",
+      "/assets/images/mobile-sequence-4.jpg",
+      "/assets/images/mobile-sequence-5.jpg"
+    ],
+    craneSequenceMobile: [
+      "/assets/images/mobile-sequence-5.jpg",
+      "/assets/images/mobile-sequence-4.jpg",
+      "/assets/images/mobile-sequence-3.jpg",
+      "/assets/images/mobile-sequence-2.jpg",
+      "/assets/images/mobile-sequence-1.jpg"
+    ],
     safetyMobileBg: "/assets/images/bg-safety-mobile.jpg",
     solarMobileBg: "/assets/images/bg-solar-mobile.jpg",
     solarLottie: "/export/video/built-solar.json"
