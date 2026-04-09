@@ -1,0 +1,41 @@
+{
+  "name": "sola-local-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Local runnable static site with captured assets",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
+{
+  "name": "sola-built-site-local",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Local runnable site using captured Built Robotics assets",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
+{
+  "name": "builtrobotics-home-clone",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Local clone of builtrobotics.com homepage with captured assets and animations",
+  "scripts": {
+    "start": "serve . -l 5500",
+    "dev": "serve . -l 5500"
+  },
+  "devDependencies": {
+    "serve": "^14.2.4"
+  }
+}
